@@ -1,0 +1,45 @@
+.contact-details__description {
+  font-family: var(--ff-body-regular);
+  color: var(--clr-primary-dark-100);
+  font-size: var(--fz-main-p);
+}
+
+.contact-details__description a {
+  color: var(--clr-primary-dark-100);
+  text-decoration: none;
+}
+.contact-details__description a:hover,
+.contact-details__description a:active {
+  color: var(--clr-primary-dark-400);
+}
+
+.contact-page__social {
+  background-color: var(--clr-secondary-200);
+  border-radius: 1rem;
+  box-shadow: -2px -2px 5px var(--clr-secondary-100),
+    2px 2px 5px var(--clr-primary-dark-400);
+}
+
+.contact-page__social:hover {
+  background-color: var(--clr-secondary-300);
+  border-radius: 1rem;
+  box-shadow: -2px -2px 5px var(--clr-secondary-100),
+    2px 2px 5px var(--clr-primary-dark-400);
+}
+
+.contact-page__social svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.contact-details__links,
+.contact-details__links a {
+  color: var(--clr-secondary-100);
+}
+
+.contact-details__links {
+  background-color: var(--clr-primary-dark-200);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 8px var(--clr-primary-dark),
+    -5px -5px 8px var(--clr-secondary-300);
+}

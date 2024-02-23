@@ -1,0 +1,4 @@
+.contact-heading__container h1 {
+  font-family: var(--ff-heading-primary-2);
+  font-size: var(--fz-main-h1);
+}
